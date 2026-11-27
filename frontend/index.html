@@ -1,0 +1,713 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Deliverance Church International, Kizito | House of Love</title>
+<meta name="description" content="Deliverance Church International, Kizito (DCI Kizito) — a place of worship, community, and transformation in Kenya. Join a service, watch sermons, or give online via M-Pesa." />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,400..700&family=Hanken+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
+<link href="https://fonts.googleapis.com/icon?family=Material+Symbols+Outlined" rel="stylesheet" />
+<link rel="icon" href="images/logo.png" />
+<meta name="theme-color" content="#192C67" />
+<link rel="stylesheet" href="css/style.css" />
+<link rel="stylesheet" href="css/extras.css" />
+<link rel="stylesheet" href="css/animations.css" />
+</head>
+<body>
+
+<!-- ============ HEADER / TOP NAV ============ -->
+<header class="site-header" id="site-header">
+  <div class="nav-inner">
+    <a href="#home" class="brand" data-link>
+      <span class="brand-mark"><img class="brand-logo" src="images/logo.jpg" alt="Deliverance Church International, Kizito logo" width="48" height="48" /></span>
+      <span class="brand-text">
+        <strong>DCI - Kizito</strong>
+        <small>House of Love</small>
+      </span>
+    </a>
+
+    <nav class="primary-nav" aria-label="Primary">
+      <a href="#home" data-link>Home</a>
+      <a href="#about" data-link>About</a>
+      <a href="#sermons" data-link>Sermons</a>
+      <a href="#events" data-link>Events</a>
+      <div class="nav-dd" id="nav-groups"></div>
+      <a href="#newsletter" data-link>News</a>
+      <a href="#give" data-link>Give</a>
+      <a href="#contact" data-link>Contact</a>
+    </nav>
+
+    <div class="nav-actions">
+      <a href="#login" class="link-muted auth-guest" data-link>Member Login</a>
+      <a href="#dashboard" class="link-muted auth-member is-hidden" data-link>My Dashboard</a>
+      <button class="btn btn-primary btn-sm auth-guest" data-link data-target="#give">Give Now</button>
+      <button class="btn btn-secondary btn-sm auth-member is-hidden" id="logout-btn" type="button">Logout</button>
+    </div>
+
+    <button class="hamburger" id="mobile-menu-btn" aria-label="Open menu" aria-expanded="false" aria-controls="mobile-nav">
+      <span class="material-symbols-outlined">menu</span>
+    </button>
+  </div>
+</header>
+
+<!-- Mobile Slide Nav -->
+<div class="mobile-overlay" id="mobile-nav-overlay"></div>
+<nav class="mobile-nav" id="mobile-nav" aria-label="Mobile">
+  <div class="mobile-nav-top">
+    <span class="brand-text light">
+      <strong>DCI Kizito</strong>
+      <small>House of Love</small>
+    </span>
+    <button class="icon-btn" id="close-mobile-nav" aria-label="Close menu">
+      <span class="material-symbols-outlined">close</span>
+    </button>
+  </div>
+  <div class="mobile-nav-links">
+    <a href="#home" data-link><span class="material-symbols-outlined">home</span>Home</a>
+    <a href="#about" data-link><span class="material-symbols-outlined">info</span>About</a>
+    <a href="#sermons" data-link><span class="material-symbols-outlined">menu_book</span>Sermons</a>
+    <a href="#events" data-link><span class="material-symbols-outlined">calendar_month</span>Events</a>
+    <div id="mobile-groups"></div>
+    <a href="#newsletter" data-link><span class="material-symbols-outlined">newspaper</span>Newsletter</a>
+    <a href="#give" data-link><span class="material-symbols-outlined">volunteer_activism</span>Give</a>
+    <a href="#contact" data-link><span class="material-symbols-outlined">mail</span>Contact</a>
+    <a href="#login" class="auth-guest" data-link><span class="material-symbols-outlined">login</span>Member Login</a>
+    <a href="#dashboard" class="auth-member is-hidden" data-link><span class="material-symbols-outlined">dashboard</span>My Dashboard</a>
+  </div>
+  <div class="mobile-nav-bottom">
+    <button class="btn btn-primary" data-link data-target="#give">Give Now</button>
+    <button class="btn btn-secondary auth-member is-hidden" id="logout-btn-mobile" type="button">Logout</button>
+  </div>
+</nav>
+
+<main id="main-content">
+
+<!-- ============ HOME ============ -->
+<section class="page" id="page-home" data-title="Home">
+  <section class="hero">
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <h1>House of Love</h1>
+      <p>A place of worship, community, and transformation. Join us in spreading love and hope — right here in Kenya and beyond.</p>
+      <div class="hero-actions">
+        <button class="btn btn-primary" data-link data-target="#sermons">Watch Live</button>
+        <button class="btn btn-secondary btn-on-dark" data-link data-target="#contact">Plan a Visit</button>
+      </div>
+    </div>
+  </section>
+
+  <section class="section container">
+    <div class="two-col">
+      <div class="col">
+        <h2 class="headline">Welcome Home</h2>
+        <p class="body-lg">At Deliverance Church International, Kizito, we believe in the transformative power of love and faith. Whether you are seeking spiritual guidance, a supportive community, or a place to serve, you have found a home here.</p>
+        <div class="signature">
+          <div class="signature-line"></div>
+          <div>
+            <p class="name">Reverend Crispus Kinene and Pastor Jesinta Kinene</p>
+            <p class="label">Senior Pastor</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="portrait-card">
+          <div class="portrait-frame" role="img" aria-label="Portrait of Reverend Crispus Kinene, Senior Pastor">
+            <span class="material-symbols-outlined portrait-icon">self_improvement</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section container">
+    <h2 class="headline center">Service Times</h2>
+    <div class="grid-3">
+      <div class="info-card">
+        <span class="material-symbols-outlined">wb_sunny</span>
+        <h3>Sunday Worship</h3>
+        <p>10:00 AM &ndash; 12:00 PM<br/>Main Sanctuary</p>
+      </div>
+      <div class="info-card">
+        <span class="material-symbols-outlined">groups</span>
+        <h3>Midweek Bible Study</h3>
+        <p>Wednesdays, 7:00 PM<br/>Fellowship Hall</p>
+      </div>
+      <div class="info-card">
+        <span class="material-symbols-outlined">music_note</span>
+        <h3>Choir Practice</h3>
+        <p>Thursdays, 6:30 PM<br/>Main Sanctuary</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section container cta-band">
+    <div class="cta-inner">
+      <div>
+        <h2 class="headline">Support Our Ministry</h2>
+        <p class="body-lg">Your tithes and offerings, given securely via M-Pesa, help us reach more people with the Gospel.</p>
+      </div>
+      <button class="btn btn-primary btn-lg" data-link data-target="#give">
+        <span class="material-symbols-outlined">volunteer_activism</span> Give in KSh
+      </button>
+    </div>
+  </section>
+</section>
+
+<!-- ============ ABOUT ============ -->
+<section class="page" id="page-about" data-title="About Us">
+  <section class="page-hero">
+    <div class="page-hero-overlay"></div>
+    <div class="page-hero-content">
+      <h1>Our Story &amp; Mission</h1>
+      <p>Rooted in faith. Growing in love. Reaching the nations.</p>
+    </div>
+  </section>
+
+  <section class="section container">
+    <div class="two-col reverse">
+      <div class="col">
+        <h2 class="headline">Our Mission</h2>
+        <p class="body-lg">To proclaim Christ through teaching in all wisdom for an empowered Church.</p>
+        <p>We exist to worship God authentically, build a Christ-centered community, and demonstrate the Gospel through compassionate service across Kenya and beyond.</p>
+      </div>
+      <div class="col">
+        <h2 class="headline">Our Vision</h2>
+        <p class="body-lg">A community of Christians, spiritually charged and wholly empowered in and for a dynamic world.</p>
+            </div>
+      <div class="col">
+        <h2 class="headline">Values</h2>
+        <p class="body-lg">Christ-likeness.</p>
+        <p class="body-lg">Accountability.</p>
+        <p class="body-lg">Innovation.</p>
+        <p class="body-lg">Excellence.</p>
+        <p class="body-lg">Fellowship.</p>
+            </div>
+      <div class="col">
+        <div class="stat-grid">
+          <div class="stat"><span class="stat-num">13+</span><span class="stat-label">Years of Ministry</span></div>
+          <div class="stat"><span class="stat-num">600+</span><span class="stat-label">Congregants</span></div>
+          <div class="stat"><span class="stat-num">7+</span><span class="stat-label">Community Groups</span></div>
+          <div class="stat"><span class="stat-num">12</span><span class="stat-label">Outreach Missions</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section container surface-band">
+    <h2 class="headline center">Our History</h2>
+    <div class="timeline">
+      <div class="timeline-item">
+        <span class="material-symbols-outlined">foundation</span>
+        <div>
+          <h3>The Foundation</h3>
+          <p>Deliverance Church International, Kizito began as a small prayer fellowship, gathering believers who shared a vision for a Spirit-led, welcoming church home.</p>
+        </div>
+      </div>
+      <div class="timeline-item">
+        <span class="material-symbols-outlined">trending_up</span>
+        <div>
+          <h3>Growth &amp; Expansion</h3>
+          <p>Over the years, the fellowship grew into a full congregation with dedicated ministries, community groups, and outreach programs serving families across the region.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section container">
+    <h2 class="headline center">Leadership</h2>
+    <div class="grid-3">
+      <div class="person-card">
+        <div class="portrait-frame small"><span class="material-symbols-outlined portrait-icon">self_improvement</span></div>
+        <h3>Reverend Crispus Kinene</h3>
+        <p class="label">Senior Pastor</p>
+      </div>
+      <div class="person-card">
+        <div class="portrait-frame small"><span class="material-symbols-outlined portrait-icon">self_improvement</span></div>
+        <h3>Pastor Jecinta Kinene</h3>
+        <p class="label">Senior Pastor</p>
+      </div>
+      <div class="person-card">
+        <div class="portrait-frame small"><span class="material-symbols-outlined portrait-icon">self_improvement</span></div>
+        <h3>Rev. Benard Kipkuna</h3>
+        <p class="label">Junior Pastor</p>
+      </div>
+      <div class="person-card">
+        <div class="portrait-frame small"><span class="material-symbols-outlined portrait-icon">self_improvement</span></div>
+        <h3>Rev. Simon Muremi </h3>
+        <p class="label">Junior Pastor</p>
+      </div>
+      <div class="person-card">
+        <div class="portrait-frame small"><span class="material-symbols-outlined portrait-icon">self_improvement</span></div>
+        <h3>Dancun Maigua</h3>
+        <p class="label">Junior Pastor</p>
+      </div>
+      <div class="person-card">
+        <div class="portrait-frame small"><span class="material-symbols-outlined portrait-icon">self_improvement</span></div>
+        <h3>Pastor Eliud Mathu</h3>
+        <p class="label">Junior Pastor</p>
+      </div>
+    </div>
+  </section>
+</section>
+
+<!-- ============ SERMONS ============ -->
+<section class="page" id="page-sermons" data-title="Sermons">
+  <section class="page-hero">
+    <div class="page-hero-overlay"></div>
+    <div class="page-hero-content">
+      <h1>Sermons &amp; Teaching</h1>
+      <p>Catch up on the Word, wherever you are.</p>
+    </div>
+  </section>
+
+  <section class="section container">
+    <div class="featured-sermon">
+      <div class="featured-video">
+        <span class="material-symbols-outlined play-icon">play_circle</span>
+      </div>
+      <div class="featured-info">
+        <span class="tag">Latest Message</span>
+        <h2>Sunday Worship Service</h2>
+        <p class="label">Rev. Crispus Kinene &middot; This Sunday</p>
+        <p>Join us as we explore what it means to walk in faith and love as the House of Love family.</p>
+        <div class="hero-actions">
+          <button class="btn btn-primary" type="button" id="watch-sermon-btn">Watch Now</button>
+          <button class="btn btn-secondary" type="button" id="download-notes-btn">Download Notes</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section container">
+    <h2 class="headline">Recent Messages</h2>
+    <div class="grid-3" id="sermons-list">
+      <!-- populated by js from /api/sermons, falls back to static cards -->
+      <div class="sermon-card">
+        <div class="sermon-thumb"><span class="material-symbols-outlined">play_circle</span></div>
+        <h3>Walking in Purpose</h3>
+        <p class="label">Rev. Crispus Kinene</p>
+        <button class="btn btn-primary" type="button" id="watch-sermon-btn">Watch Now</button>
+      </div>
+      <div class="sermon-card">
+        <div class="sermon-thumb"><span class="material-symbols-outlined">play_circle</span></div>
+        <h3>The Power of Community</h3>
+        <p class="label">Rev. Crispus Kinene</p>
+        <button class="btn btn-primary" type="button" id="watch-sermon-btn">Watch Now</button>
+      </div>
+      <div class="sermon-card">
+        <div class="sermon-thumb"><span class="material-symbols-outlined">play_circle</span></div>
+        <h3>Faith Over Fear</h3>
+        <p class="label">Rev. Crispus Kinene</p>
+        <button class="btn btn-primary" type="button" id="watch-sermon-btn">Watch Now</button>
+      </div>
+    </div>
+  </section>
+</section>
+
+<!-- ============ EVENTS ============ -->
+<section class="page" id="page-events" data-title="Events">
+  <section class="page-hero">
+    <div class="page-hero-overlay"></div>
+    <div class="page-hero-content">
+      <h1>Upcoming Events</h1>
+      <p>There's always something happening at DCI Kizito.</p>
+    </div>
+  </section>
+
+  <section class="section container">
+    <div class="table-card">
+      <table class="data-table desktop-only">
+        <thead>
+          <tr><th>Date &amp; Time</th><th>Event</th><th>Location</th><th></th></tr>
+        </thead>
+        <tbody id="events-table-body">
+          <tr>
+            <td><strong>Sun</strong><br/><span class="muted">10:00 AM</span></td>
+            <td>Sunday Worship Service</td>
+            <td>Main Sanctuary</td>
+            <td class="right"><button class="link-btn" type="button">Details</button></td>
+          </tr>
+          <tr>
+            <td><strong>Wed</strong><br/><span class="muted">7:00 PM</span></td>
+            <td>Midweek Bible Study</td>
+            <td>Fellowship Hall</td>
+            <td class="right"><button class="link-btn" type="button">Details</button></td>
+          </tr>
+        </tbody>
+      </table>
+      <div class="mobile-only stacked-list" id="events-list-mobile">
+        <div class="stacked-item">
+          <div class="stacked-top"><h3>Sunday Worship Service</h3><span class="badge">Sun</span></div>
+          <p class="muted"><span class="material-symbols-outlined tiny">schedule</span> 10:00 AM</p>
+          <p class="muted"><span class="material-symbols-outlined tiny">location_on</span> Main Sanctuary</p>
+        </div>
+        <div class="stacked-item">
+          <div class="stacked-top"><h3>Midweek Bible Study</h3><span class="badge">Wed</span></div>
+          <p class="muted"><span class="material-symbols-outlined tiny">schedule</span> 7:00 PM</p>
+          <p class="muted"><span class="material-symbols-outlined tiny">location_on</span> Fellowship Hall</p>
+        </div>
+      </div>
+    </div>
+  </section>
+</section>
+
+<!-- ============ GIVE (KES / M-PESA) ============ -->
+<section class="page" id="page-give" data-title="Give">
+  <section class="page-hero">
+    <div class="page-hero-overlay"></div>
+    <div class="page-hero-content">
+      <h1>Give Online</h1>
+      <p>Securely give your tithe or offering in Kenya Shillings via M-Pesa.</p>
+    </div>
+  </section>
+
+  <section class="section container narrow">
+    <form class="card form-card" id="donation-form" novalidate>
+      <div id="give-alert" class="alert is-hidden" role="status"></div>
+
+      <label class="field-label">Select Fund</label>
+      <div class="chip-group" id="fund-group">
+        <button type="button" class="chip is-active" data-fund="tithe">Tithe</button>
+        <button type="button" class="chip" data-fund="offering">Offering</button>
+        <button type="button" class="chip" data-fund="building">Building Fund</button>
+        <button type="button" class="chip" data-fund="missions">Missions</button>
+        <button type="button" class="chip" data-fund="welfare">Welfare</button>
+      </div>
+
+      <label class="field-label">Amount (KES)</label>
+      <div class="chip-group" id="amount-group">
+        <button type="button" class="chip amount-chip" data-amount="500">KSh 500</button>
+        <button type="button" class="chip amount-chip" data-amount="1000">KSh 1,000</button>
+        <button type="button" class="chip amount-chip is-active" data-amount="2500">KSh 2,500</button>
+        <button type="button" class="chip amount-chip" data-amount="5000">KSh 5,000</button>
+        <button type="button" class="chip amount-chip" data-amount="10000">KSh 10,000</button>
+        <button type="button" class="chip amount-chip" data-amount="other">Other</button>
+      </div>
+      <div class="field" id="custom-amount-wrap" style="display:none;">
+        <label class="field-label" for="custom-amount">Custom Amount (KES)</label>
+        <input type="number" id="custom-amount" min="1" step="1" placeholder="e.g. 1500" />
+      </div>
+
+      <div class="field-row">
+        <div class="field">
+          <label class="field-label" for="donor-name">Full Name</label>
+          <input type="text" id="donor-name" required placeholder="Jane Wanjiru" />
+        </div>
+        <div class="field">
+          <label class="field-label" for="donor-email">Email</label>
+          <input type="email" id="donor-email" required placeholder="jane@example.com" />
+        </div>
+      </div>
+
+      <label class="field-label">Payment Method</label>
+      <div class="chip-group" id="method-group">
+        <button type="button" class="chip is-active" data-method="mpesa">
+          <span class="material-symbols-outlined tiny">phone_iphone</span> M-Pesa
+        </button>
+        <button type="button" class="chip" data-method="card">
+          <span class="material-symbols-outlined tiny">credit_card</span> Card
+        </button>
+      </div>
+
+      <div class="field" id="mpesa-phone-wrap">
+        <label class="field-label" for="mpesa-phone">M-Pesa Phone Number</label>
+        <input type="tel" id="mpesa-phone" placeholder="07XXXXXXXX or 2547XXXXXXXX" />
+        <p class="hint">You will receive an M-Pesa STK push prompt on this number to enter your PIN.</p>
+      </div>
+
+      <button type="submit" class="btn btn-primary btn-block btn-lg" id="donate-submit-btn">
+        <span class="material-symbols-outlined">volunteer_activism</span>
+        <span id="donate-btn-label">Give KSh 2,500 Now</span>
+      </button>
+      <p class="hint center">All transactions are processed securely in Kenya Shillings (KES).</p>
+    </form>
+  </section>
+</section>
+
+<!-- ============ CONTACT ============ -->
+<section class="page" id="page-contact" data-title="Contact">
+  <section class="page-hero">
+    <div class="page-hero-overlay"></div>
+    <div class="page-hero-content">
+      <h1>Get In Touch</h1>
+      <p>We would love to hear from you.</p>
+    </div>
+  </section>
+
+  <section class="section container narrow">
+    <form class="card form-card" id="contact-form" novalidate>
+      <div id="contact-alert" class="alert is-hidden" role="status"></div>
+      <div class="field-row">
+        <div class="field">
+          <label class="field-label" for="contact-name">Full Name</label>
+          <input type="text" id="contact-name" required />
+        </div>
+        <div class="field">
+          <label class="field-label" for="contact-email">Email</label>
+          <input type="email" id="contact-email" required />
+        </div>
+      </div>
+      <div class="field-row">
+        <div class="field">
+          <label class="field-label" for="contact-phone">Phone</label>
+          <input type="tel" id="contact-phone" placeholder="07XXXXXXXX" />
+        </div>
+        <div class="field">
+          <label class="field-label" for="contact-subject">Subject</label>
+          <input type="text" id="contact-subject" required />
+        </div>
+      </div>
+      <div class="field">
+        <label class="field-label" for="contact-message">Message</label>
+        <textarea id="contact-message" rows="5" required></textarea>
+      </div>
+      <button type="submit" class="btn btn-primary btn-block btn-lg" id="contact-submit-btn">Send Message</button>
+    </form>
+  </section>
+</section>
+
+<!-- ============ LOGIN ============ -->
+<section class="page" id="page-login" data-title="Member Login">
+  <section class="section container narrow auth-section">
+    <form class="card form-card" id="login-form" novalidate>
+      <h2 class="headline center">Member Login</h2>
+      <div id="login-alert" class="alert is-hidden" role="status"></div>
+      <div class="field">
+        <label class="field-label" for="login-email">Email</label>
+        <input type="email" id="login-email" required />
+      </div>
+      <div class="field">
+        <label class="field-label" for="login-password">Password</label>
+        <input type="password" id="login-password" required />
+      </div>
+      <button type="submit" class="btn btn-primary btn-block btn-lg" id="login-submit-btn">Log In</button>
+      <p class="hint center">Don't have an account? <a href="#register" data-link>Register here</a></p>
+    </form>
+  </section>
+</section>
+
+<!-- ============ REGISTER ============ -->
+<section class="page" id="page-register" data-title="Create Account">
+  <section class="section container narrow auth-section">
+    <form class="card form-card" id="register-form" novalidate>
+      <h2 class="headline center">Create a Member Account</h2>
+      <div id="register-alert" class="alert is-hidden" role="status"></div>
+      <div class="field-row">
+        <div class="field">
+          <label class="field-label" for="reg-first-name">First Name</label>
+          <input type="text" id="reg-first-name" required />
+        </div>
+        <div class="field">
+          <label class="field-label" for="reg-last-name">Last Name</label>
+          <input type="text" id="reg-last-name" required />
+        </div>
+      </div>
+      <div class="field">
+        <label class="field-label" for="reg-email">Email</label>
+        <input type="email" id="reg-email" required />
+      </div>
+      <div class="field">
+        <label class="field-label" for="reg-phone">Phone Number</label>
+        <input type="tel" id="reg-phone" placeholder="07XXXXXXXX" required />
+      </div>
+      <div class="field">
+        <label class="field-label" for="reg-password">Password</label>
+        <input type="password" id="reg-password" required minlength="8" />
+      </div>
+      <button type="submit" class="btn btn-primary btn-block btn-lg" id="register-submit-btn">Create Account</button>
+      <p class="hint center">Already a member? <a href="#login" data-link>Log in</a></p>
+    </form>
+  </section>
+</section>
+
+<!-- ============ DASHBOARD (MEMBER PORTAL) ============ -->
+<section class="page" id="page-dashboard" data-title="My Dashboard">
+  <section class="section container dashboard-wrap">
+    <header class="dashboard-header">
+      <h1 class="headline" id="dashboard-welcome">Welcome Back</h1>
+      <p class="body-lg">Here is a quick overview of your engagement and giving.</p>
+    </header>
+
+    <div class="dash-grid">
+      <div class="card dash-card span-2">
+        <div class="card-head">
+          <h2><span class="material-symbols-outlined">groups</span> My Groups</h2>
+        </div>
+        <div class="grid-2" id="dashboard-groups">
+          <div class="mini-card">
+            <span class="material-symbols-outlined">local_library</span>
+            <div>
+              <h3>Women's Bible Study</h3>
+              <p class="muted">Wednesdays, 7:00 PM</p>
+            </div>
+          </div>
+          <div class="mini-card">
+            <span class="material-symbols-outlined">music_note</span>
+            <div>
+              <h3>Sunday Choir</h3>
+              <p class="muted">Thursdays, 6:30 PM</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card dash-card">
+        <h2>Year to Date</h2>
+        <p class="muted">Your faithful contributions.</p>
+        <div class="ytd-amount" id="dashboard-ytd">KSh 0</div>
+        <p class="muted small">Thank you for your continued support of our ministries.</p>
+        <button class="btn btn-primary btn-block" data-link data-target="#give">
+          <span class="material-symbols-outlined tiny">volunteer_activism</span> Give Now
+        </button>
+      </div>
+    </div>
+
+    <div class="card table-card">
+      <div class="card-head">
+        <h2><span class="material-symbols-outlined">event_upcoming</span> Upcoming Schedule</h2>
+      </div>
+      <table class="data-table desktop-only">
+        <thead><tr><th>Date &amp; Time</th><th>Event</th><th>Location</th><th>Role</th><th></th></tr></thead>
+        <tbody id="dashboard-events-table">
+          <tr>
+            <td><strong>Oct 15, 2024</strong><br/><span class="muted">10:00 AM</span></td>
+            <td>Sunday Worship Service</td><td>Main Sanctuary</td><td>Usher</td>
+            <td class="right"><button class="link-btn" type="button">Details</button></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="card table-card">
+      <div class="card-head">
+        <h2><span class="material-symbols-outlined">receipt_long</span> Giving History</h2>
+      </div>
+      <table class="data-table desktop-only">
+        <thead><tr><th>Date</th><th>Fund</th><th>Method</th><th class="right">Amount</th></tr></thead>
+        <tbody id="dashboard-giving-table">
+          <tr><td colspan="4" class="muted center">No giving history yet.</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+</section>
+
+<!-- ============ TERMS OF SERVICE ============ -->
+<section class="page" id="page-terms" data-title="Terms of Service">
+  <section class="section container narrow legal-page">
+    <h1 class="headline">Terms of Service</h1>
+    <p class="muted">Last updated: <span id="terms-date"></span></p>
+
+    <h2>1. Acceptance of Terms</h2>
+    <p>By accessing or using the Deliverance Church International, Kizito ("DCI Kizito", "the Church", "we", "us") website and member portal, you agree to be bound by these Terms of Service. If you do not agree, please discontinue use of the site.</p>
+
+    <h2>2. Use of the Website</h2>
+    <p>This website is provided to share information about our services, ministries, sermons, and events, and to allow members to register, log in, and give tithes and offerings online. You agree to use the site only for lawful purposes and not to misuse, disrupt, or attempt unauthorized access to any part of the platform.</p>
+
+    <h2>3. Online Giving</h2>
+    <p>Donations, tithes, and offerings made through this website are processed in Kenya Shillings (KES) via M-Pesa and other supported payment methods. By submitting a donation you confirm that you are authorized to use the phone number, card, or account provided. All giving is voluntary and, except where required by law or in the case of a processing error, is non-refundable.</p>
+
+    <h2>4. Member Accounts</h2>
+    <p>You are responsible for maintaining the confidentiality of your login credentials and for all activity under your account. Notify us immediately of any unauthorized use of your account.</p>
+
+    <h2>5. Intellectual Property</h2>
+    <p>Sermons, teachings, media, and content on this site are the property of DCI Kizito unless otherwise noted, and may not be reproduced for commercial purposes without written permission.</p>
+
+    <h2>6. Limitation of Liability</h2>
+    <p>DCI Kizito provides this website "as is" and makes no warranties regarding uninterrupted or error-free operation. We shall not be liable for indirect or consequential damages arising from use of the site.</p>
+
+    <h2>7. Governing Law</h2>
+    <p>These Terms are governed by the laws of the Republic of Kenya.</p>
+
+    <h2>8. Changes to These Terms</h2>
+    <p>We may update these Terms from time to time. Continued use of the site after changes are posted constitutes acceptance of the revised Terms.</p>
+
+    <h2>9. Contact Us</h2>
+    <p>For questions about these Terms, please reach out via our <a href="#contact" data-link>Contact page</a>.</p>
+  </section>
+</section>
+
+<!-- ============ PRIVACY POLICY ============ -->
+<section class="page" id="page-privacy" data-title="Privacy Policy">
+  <section class="section container narrow legal-page">
+    <h1 class="headline">Privacy Policy</h1>
+    <p class="muted">Last updated: <span id="privacy-date"></span></p>
+
+    <h2>1. Introduction</h2>
+    <p>Deliverance Church International, Kizito ("we", "us") respects your privacy and is committed to protecting your personal data in accordance with the Kenya Data Protection Act, 2019.</p>
+
+    <h2>2. Information We Collect</h2>
+    <p>We may collect: your name, email address, phone number, and password when you register or log in; donation details (fund, amount, payment method, M-Pesa transaction reference) when you give online; messages you submit via our contact form; and group, event, or attendance information related to your membership.</p>
+
+    <h2>3. How We Use Your Information</h2>
+    <p>We use your information to create and manage your member account, process and record donations, communicate with you about church activities, respond to inquiries, and improve our services. We do not sell your personal data.</p>
+
+    <h2>4. Payment Information</h2>
+    <p>Online giving is processed via M-Pesa (Safaricom Daraja API) and, where enabled, card payment processors. We do not store your M-Pesa PIN or full card details on our servers; these are handled directly by the payment provider.</p>
+
+    <h2>5. Data Sharing</h2>
+    <p>We may share information with trusted service providers (such as our payment processor, database host, and spreadsheet/reporting tools) strictly for the purpose of operating this website, and only to the extent necessary.</p>
+
+    <h2>6. Data Retention &amp; Security</h2>
+    <p>We retain your information for as long as necessary to fulfil the purposes described in this policy or as required by law, and apply reasonable technical and organizational measures to protect it against unauthorized access.</p>
+
+    <h2>7. Your Rights</h2>
+    <p>Under the Data Protection Act, 2019, you have the right to access, correct, or request deletion of your personal data, and to object to certain processing. To exercise these rights, contact us via our <a href="#contact" data-link>Contact page</a>.</p>
+
+    <h2>8. Cookies</h2>
+    <p>This site may use minimal local storage on your device to keep you logged in to the member portal. We do not use tracking cookies for advertising.</p>
+
+    <h2>9. Changes to This Policy</h2>
+    <p>We may update this Privacy Policy periodically. The "Last updated" date above reflects the most recent revision.</p>
+  </section>
+</section>
+
+</main>
+
+<!-- ============ FOOTER ============ -->
+<footer class="site-footer">
+  <div class="footer-inner">
+    <div class="footer-brand">
+      <a href="#home" data-link class="brand">
+        <span class="brand-mark"><img class="brand-logo" src="images/logo.jpg" alt="Deliverance Church International, Kizito logo" width="48" height="48" /></span>
+        <span class="brand-text light"><strong>DCI Kizito</strong></span>
+      </a>
+      <p class="muted">&copy; <span id="footer-year"></span> Deliverance Church International, Kizito. All rights reserved.</p>
+    </div>
+
+    <div class="footer-col">
+      <h4>Quick Links</h4>
+      <button class="footer-link" data-link data-target="#about" type="button">About</button>
+      <button class="footer-link" data-link data-target="#sermons" type="button">Sermons</button>
+      <button class="footer-link" data-link data-target="#events" type="button">Events</button>
+      <button class="footer-link" data-link data-target="#newsletter" type="button">Newsletter &amp; Articles</button>
+      <button class="footer-link" data-link data-target="#contact" type="button">Contact Us</button>
+      <button class="footer-link" data-link data-target="#login" type="button">Member Login</button>
+    </div>
+
+    <div class="footer-col">
+      <h4>Legal</h4>
+      <button class="footer-link" data-link data-target="#privacy" type="button">Privacy Policy</button>
+      <button class="footer-link" data-link data-target="#terms" type="button">Terms of Service</button>
+      <button class="footer-link" id="open-cookie-settings" type="button">Cookie Settings</button>
+    </div>
+
+    <div class="footer-col">
+      <h4>Connect</h4>
+      <div class="social-row" id="footer-social"></div>
+      <p class="muted small">Nairobi, Kenya</p>
+    </div>
+  </div>
+</footer>
+
+<!-- Toast -->
+<div class="toast is-hidden" id="toast"></div>
+
+<script src="js/content.js"></script>
+<script src="js/extras.js"></script>
+<script src="js/script.js"></script>
+<script src="js/animations.js"></script>
+</body>
+</html>
